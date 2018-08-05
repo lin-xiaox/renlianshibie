@@ -1,0 +1,51 @@
+@import url(base.css);
+.bg{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color:#f3f3f3; 
+}
+.check{
+	display: block;
+	width: 6rem;
+	height: 5rem;
+	background: url('../img/图层10.png') no-repeat center center;
+	margin: 4.51rem auto 0;
+	overflow: hidden;
+}
+.check img{
+	width:1.33rem;
+	height: 1.27rem; 
+	margin: 1rem auto 0;
+}
+.check p{
+	font-size: 0.26rem;
+	font-family: "苹方";
+	color: #585858;
+	margin: 0 auto;
+	text-align: center;
+}
+.checked{
+	width: 100%;
+	height: 0.6rem;
+	margin-top: 0.5rem;
+}
+.checked button{
+	display: block;
+	width: 3.07rem;
+	height: 0.6rem;
+	margin: 0 auto;
+	outline: none;
+	border-radius: 0.3rem;
+	border: 0;
+	font-size: 0.24rem;
+	font-family: "苹方";
+	color: #ffffff;
+	background-image: -webkit-linear-gradient(top,#34d17a,#3ce242);
+	background-image: -moz-linear-gradient(top,#34d17a,#3ce242);
+	background-image: -ms-linear-gradient(top,#34d17a,#3ce242);
+	background-image: -o-linear-gradient(top,#34d17a,#3ce242);
+	background-image: linear-gradient(top,#34d17a,#3ce242);
+}
