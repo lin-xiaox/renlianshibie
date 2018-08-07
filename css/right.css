@@ -1,0 +1,70 @@
+@import url(base.css);
+.bg{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: url('../img/right.png') no-repeat center ;
+	background-size: 7.5rem 13.34rem; 
+}
+h2{
+	font-size: 0.32rem;
+	font-family: "苹方";
+	color: #ffffff;
+	margin: 1.28rem auto 0;
+	text-align: center;
+}
+p{
+	text-align: center;
+	line-height: 0.22rem;
+	font-size: 0.22rem;
+	font-family: "苹方";
+	color: rgba(255, 255, 255, 0.5);
+	margin-top: 0.12rem;
+}
+.shengyin{
+	width: 4.55rem;
+	height: 4.4rem;
+	margin: 0.28rem auto 0;
+}
+.shengyin img{
+	display: block;
+	width: 4.55rem;
+	height: 4.4rem;
+}
+button{
+	display: block;
+	width: 3.57rem;
+	height: 0.7rem;
+	border-radius: 0.35rem;
+	margin: 4.14rem auto 0;
+	outline: none;
+	border: none;
+	box-shadow: 0 0.05rem 0.2rem 0.05rem rgba(225, 206, 55, 0.3);
+	background-image: -webkit-linear-gradient(top,#ffce37,#ffab32);
+	background-image: -moz-linear-gradient(top,#ffce37,#ffab32);
+	background-image: -ms-linear-gradient(top,#ffce37,#ffab32);
+	background-image: -o-linear-gradient(top,#ffce37,#ffab32);
+	background-image: linear-gradient(top,#ffce37,#ffab32);
+}
+button a{
+	display: block;
+	width: 3.57rem;
+	height: 0.7rem;
+	border-radius: 0.35rem;
+	line-height: 0.7rem;
+	font-size: 0.24rem;
+	color: #ffffff;
+	font-family: "苹方";
+	text-align: center;
+}
+span{
+	display: block;
+	line-height: 0.7rem;
+	font-size: 0.22rem;
+	color: rgba(0, 0, 0, 0.3);
+	font-family: San Francisco Display;
+	text-align: center;
+	margin: 1rem auto 0;
+}

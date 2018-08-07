@@ -40,9 +40,6 @@
 	outline: none;
 	border-radius: 0.3rem;
 	border: 0;
-	font-size: 0.24rem;
-	font-family: "苹方";
-	color: #ffffff;
 	background-image: -webkit-linear-gradient(top,#34d17a,#3ce242);
 	background-image: -moz-linear-gradient(top,#34d17a,#3ce242);
 	background-image: -ms-linear-gradient(top,#34d17a,#3ce242);
@@ -53,5 +50,8 @@
 	display: block;
 	width: 3.07rem;
 	height: 0.6rem;
+	font-size: 0.24rem;
+	font-family: "苹方";
 	color: #ffffff;
+	line-height: 0.6rem;
 }

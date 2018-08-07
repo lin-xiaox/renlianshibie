@@ -13,6 +13,17 @@
 	margin: 1.59rem auto 0.26rem;
 	position: relative;
 }
+@keyframes animat{
+	0%{
+        transform: scale(1, 1);
+        opacity: 1;
+	}
+	100%{
+		transform: scale(1.5, 1.5);
+        opacity: 0.5;
+	}
+
+}
 .head .back1{
 	width: 3.46rem;
 	height: 3.46rem;
@@ -21,6 +32,7 @@
 	top: 0;
 	left: 0;
 	background: rgba(220, 240, 231, 0.3);
+	animation: animat 2s linear infinite forwards;
 }
 .head .back2{
 	width: 2.76rem;
@@ -33,6 +45,7 @@
 	left: 0;
 	margin: auto;
 	background: rgba(220, 240, 231, 0.5);
+	animation: animat 2s linear infinite forwards;
 }
 .head .back3{
 	width: 2.06rem;
@@ -45,6 +58,7 @@
 	left: 0;
 	margin: auto;
 	background: rgba(220, 240, 231, 1);
+	animation: animat 2s linear infinite forwards;
 }
 .head .head1{
 	width: 0.66rem;
@@ -127,10 +141,6 @@ h3{
 	margin: 2.86rem auto 0;
 	border: none;
 	border-radius: 0.35rem;
-	color: #b5b5b5;
-	outline: none;
-	font-family: "苹方";
-	font-size: 0.24rem;
 	background: #e4e4e4;
 }	
 .button2 a{
@@ -138,4 +148,9 @@ h3{
 	width: 3.57rem;
 	height: 0.7rem;
 	color: #b5b5b5;
+	outline: none;
+	font-family: "苹方";
+	font-size: 0.24rem;
+	border-radius: 0.35rem;
+	line-height: 0.7rem;
 }	

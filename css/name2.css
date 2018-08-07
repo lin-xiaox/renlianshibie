@@ -13,6 +13,17 @@
 	margin: 1.59rem auto 0.26rem;
 	position: relative;
 }
+@keyframes animat{
+	0%{
+        transform: scale(1, 1);
+        opacity: 1;
+	}
+	100%{
+		transform: scale(1.5, 1.5);
+        opacity: 0.5;
+	}
+
+}
 .head .back1{
 	width: 3.46rem;
 	height: 3.46rem;
@@ -21,6 +32,7 @@
 	top: 0;
 	left: 0;
 	background: rgba(220, 240, 231, 0.3);
+	animation: animat 2s linear infinite forwards;
 }
 .head .back2{
 	width: 2.76rem;
@@ -33,6 +45,7 @@
 	left: 0;
 	margin: auto;
 	background: rgba(220, 240, 231, 0.5);
+	animation: animat 2s linear infinite forwards;
 }
 .head .back3{
 	width: 2.06rem;
@@ -45,6 +58,7 @@
 	left: 0;
 	margin: auto;
 	background: rgba(220, 240, 231, 1);
+	animation: animat 2s linear infinite forwards;
 }
 .head .head1{
 	width: 0.66rem;
@@ -135,10 +149,7 @@ h3{
 	margin: 2.86rem auto 0;
 	border: none;
 	border-radius: 0.35rem;
-	color: #ffffff;
 	outline: none;
-	font-family: "苹方";
-	font-size: 0.24rem;
 	box-shadow: 0 0.15rem 0.5rem 0.05rem rgba(64, 177, 255, 0.6);
 	background-image: -webkit-linear-gradient(left,#40b1ff,#48b4fe);
 	background-image: -moz-linear-gradient(left,#40b1ff,#48b4fe);
@@ -152,4 +163,7 @@ h3{
 	height: 0.7rem;
 	border-radius: 0.35rem;
 	color: #ffffff;
+	font-family: "苹方";
+	font-size: 0.24rem;
+	line-height: 0.7rem;
 }	
