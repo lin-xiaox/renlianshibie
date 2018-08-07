@@ -132,4 +132,10 @@ h3{
 	font-family: "苹方";
 	font-size: 0.24rem;
 	background: #e4e4e4;
-}		
+}	
+.button2 a{
+	display: block;
+	width: 3.57rem;
+	height: 0.7rem;
+	color: #b5b5b5;
+}	

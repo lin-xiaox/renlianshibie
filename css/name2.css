@@ -145,4 +145,11 @@ h3{
 	background-image: -ms-linear-gradient(left,#40b1ff,#48b4fe);
 	background-image: -o-linear-gradient(left,#40b1ff,#48b4fe);
 	background-image: linear-gradient(left,#40b1ff,#48b4fe);
-}		
+}	
+.button2 a{
+	display: block;
+	width: 3.57rem;
+	height: 0.7rem;
+	border-radius: 0.35rem;
+	color: #ffffff;
+}	

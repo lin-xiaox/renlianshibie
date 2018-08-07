@@ -49,3 +49,9 @@
 	background-image: -o-linear-gradient(top,#34d17a,#3ce242);
 	background-image: linear-gradient(top,#34d17a,#3ce242);
 }
+.checked button a{
+	display: block;
+	width: 3.07rem;
+	height: 0.6rem;
+	color: #ffffff;
+}

@@ -55,3 +55,14 @@ h2{
 	background-image: -ms-linear-gradient(left,#3de43d,#33d07d);
 	background-image: -o-linear-gradient(left,#3de43d,#33d07d);
 	background-image: linear-gradient(left,#3de43d,#33d07d);
+}
+.button2 a{
+	display: block;
+	width: 4.45rem;
+	height: 0.7rem;
+	color: #ffffff;
+	border-radius: 0.35rem;
+	font-family: "苹方";
+	font-size: 0.24rem;
+	line-height: 0.7rem;
+}

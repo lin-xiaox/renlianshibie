@@ -1,0 +1,37 @@
+@import url(base.css);
+.bg{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color:#f3f3f3; 
+}
+.scan{
+	width: 3.64rem;
+	height: 4.93rem;
+	box-sizing: border-box;
+	border: 0.02rem solid #eaeaea;
+	background-color: #f5f5f5;
+	margin: 2.26rem auto 0;
+}
+p{
+	width: 2.35rem;
+	height: 0.32rem;
+	margin: 3.5rem auto 0;
+	line-height: 0.32rem;
+	text-align: center;
+	font-size: 0.3rem;
+	color: #a0a0a0;
+	font-family: "苹方";
+}
+h2{
+	width: 3.8rem;
+	height: 0.18rem;
+	color: #d9d9d9;
+	font-size: 0.18rem;
+	font-family: San Francisco Display;
+	line-height: 0.18rem;
+	text-align: center;
+	margin: 1.3rem auto 0;
+}
